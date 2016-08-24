@@ -91,7 +91,7 @@ class Gallery extends React.Component {
   render() {
     return (
       <div>
-        <div ref={(c) => this._galleryContainer = c}>
+        <div {...props} ref={(c) => this._galleryContainer = c}>
           {this.state.images}
         </div>
         <Lightbox
