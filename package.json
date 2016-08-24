@@ -2,7 +2,7 @@
   "name": "react-pack-gallery",
   "version": "0.0.1",
   "description": "A gallery based on a horizontal grid. All images are packed into a rectangle. This library expects to be given an arry of LazySizes components.",
-  "main": "lib/Gallery.js",
+  "main": "lib/Gallery.min.js",
   "scripts": {
     "build": "webpack --mode=build",
     "dev": "webpack-dev-server --progress --colors --watch --mode=dev",
