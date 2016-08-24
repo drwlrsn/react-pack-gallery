@@ -61,6 +61,6 @@ const IMAGES = () => {
 };
 
 ReactDOM.render(
-  <Gallery media={IMAGES()} />,
+  <Gallery className="gallery" media={IMAGES()} />,
   document.getElementById('gallery')
 );
