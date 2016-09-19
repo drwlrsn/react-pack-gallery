@@ -68,7 +68,7 @@ class Gallery extends React.Component {
 
   handleResize() {
     this.pack.width = this._galleryContainer.clientWidth;
-    this.pack.height = Math.round(window.outerHeight / Math.PI);
+    this.pack.height = Math.round(window.innerHeight / Math.PI);
     this.pack.reload();
   }
 
